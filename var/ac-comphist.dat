@@ -1,4 +1,8 @@
-((("local" .
+((("emms-lyrics-download.el" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("emms-devel" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("local" .
    [1 0 0 0 0])
   ("test" .
    [0 0 0 1])
@@ -153,7 +157,7 @@
   ("emms-playing-time-style" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
   ("require" .
-   [11 0 0 0 0 0 0])
+   [12 0 0 0 0 0 0])
   ("anything" .
    [1 0 0 0 0 0 0 0])
   ("anything-config" .

@@ -1,18 +1,17 @@
 
 ;; ----- smex-history -----
 (
- emms-add-dired
- goto-last-change
- goto-last-change-reverse
+ emms-volume-raise
+ emms-lyrics-redownload-lyric
  cd
  mf
  5x5
  arp
+ dbx
 )
 
 ;; ----- smex-data -----
 (
- (goto-last-change-reverse . 2)
- (goto-last-change . 1)
- (emms-add-dired . 2)
+ (emms-lyrics-redownload-lyric . 3)
+ (emms-volume-raise . 1)
 )

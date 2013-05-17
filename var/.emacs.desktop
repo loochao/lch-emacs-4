@@ -2,7 +2,7 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Thu May 16 17:01:21 2013
+;; Created Thu May 16 22:10:15 2013
 ;; Desktop file format version 206
 ;; Emacs version 24.3.1
 
@@ -10,19 +10,217 @@
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("breadcrumb.el" "va" "f5" "go" "reverse" "emms" "goto" "buf" "dir" "laz" "brea" "bread" "compl" "auto-co" "auto" "comp"))
+(setq search-ring '("emms" "find" "emms" "self" "breadcrumb.el" "va" "f5" "go" "reverse" "emms" "goto" "buf" "dir" "laz" "brea" "bread"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("/Users/LooChao/Dropbox/.emacs.d/lisp/breadcrumb/breadcrumb.el" "/Users/LooChao/Dropbox/.emacs.d/rc/lch-bmk.el" "/Users/LooChao/Dropbox/.emacs.lib/lch-emacs/rc/lch-bmk.el" "/Users/LooChao/Dropbox/.emacs.d/rc/archive/dotEmacs_archive" "/Users/LooChao/Dropbox/.emacs.d/rc/archive/color-theme-loochao.el_archive" "/Users/LooChao/.wine/dosdevices/z:/Volumes/DATA/Dropbox/.emacs.lib/Lazycat/Site-Lisp/Packages/LazyCatCollect/ac-anything.el" "/Users/LooChao/.wine/dosdevices/z:/Volumes/DATA/Dropbox/.emacs.lib/Lazycat/Site-Lisp/Configure/Init/init-wget.el" "/Users/LooChao/Dropbox/.emacs.d/rc/lch-elisp.el" "/Users/LooChao/Downloads/lch-elisp.el" "/Users/LooChao/Dropbox/.emacs.d/rc/archive/lch-emms.el_archive" "/Users/LooChao/.wine/dosdevices/z:/Volumes/DATA/Dropbox/.emacs.lib/Lazycat/Site-Lisp/Configure/LazyCatKeystoke.el" "/Users/LooChao/.wine/dosdevices/z:/Volumes/DATA/Dropbox/.emacs.lib/Lazycat/Site-Lisp/Configure/Init/init-auto-complete.el" "/Users/LooChao/.wine/dosdevices/z:/Users/LooChao/Dropbox/.emacs.d/lisp/grep-util/color-grep.el" "/Users/LooChao/.wine/dosdevices/z:/Users/LooChao/Dropbox/.emacs.d/lisp/grep-util/grep-edit.el" "~/Dropbox/.emacs.d/rc/archive/" "/Users/LooChao/Dropbox/.emacs.d/lib/themes/color-theme-zenburn/color-theme-zenburn.el" "~/Dropbox/.emacs.d/lib/themes/color-theme-zenburn" "/Users/LooChao/Dropbox/.emacs.d/rc/archive/lch-elisp.el_archive" "/Users/LooChao/Dropbox/.emacs.d/lisp/rainbow-delimiter/rainbow-delimiter.el" "~/Dropbox/.emacs.d/lisp/rainbow-delimiter" "/Users/LooChao/Dropbox/.emacs.d/rc/archive/lch-dired.el_archive" "~/.wine/dosdevices/z:/Users/LooChao/Dropbox/Research/Data/130506_PowerVSDelay_NanoSecondLaser/fluence_vs_delay.m" "~/.wine/dosdevices/z:/Users/LooChao/Dropbox/Research/Data/130506_PowerVSDelay_NanoSecondLaser/fluence_vs_delay." "/Users/LooChao/.wine/dosdevices/z:/Users/LooChao/Dropbox/Research/Data/130506_PowerVSDelay_NanoSecondLaser/influence_vs_delay.m" "~/.wine/dosdevices/z:/Users/LooChao/Dropbox/Programming/Matlab/" "~/.wine/dosdevices/z:/Users/LooChao/Dropbox/Research/Data/130506_PowerVSDelay_NanoSecondLaser/power_vs_delay.m" "~/.wine/dosdevices/z:/Users/LooChao/Dropbox/Research/Data/130506_PowerVSDelay_NanoSecondLaser/energy_vs_delay.m" "/Users/LooChao/.wine/dosdevices/z:/Users/LooChao/Dropbox/Research/Data/130506_PowerVSDelay_NanoSecondLaser/power_vs_delay.m" "~/Dropbox/Music/CHECKIN_Coding.Not.Right/" "/Users/LooChao/.wine/dosdevices/z:/Users/LooChao/Dropbox/.emacs.d/lisp/matlab-mode/matlab-emacs/matlab-load.el"))
+(setq file-name-history '("/Volumes/DATA/Music/POPCN/ë∂˛ë ÷ë√µëπÂ_ë≤…ëª®.mp3" "/Volumes/DATA/Music/POPCN/Wonder.Girls_Nobody.mp3" "/Volumes/DATA/Music/POPCN/Hebe_\221\304ùˆ¿µ\271\221\312î™’úÙ©Í\221\320úÙ©—\270\243.mp3" "~/Dropbox/.emacs.d/lisp/emms-util/emms-lyrics-download.el" "~/Dropbox/.emacs.d/lisp/emms-util" "/Volumes/DATA/Music/INBOX/Yusong/" "/Volumes/DATA/Music/INBOX/Xiami/Current/" "/Volumes/DATA/Music/POPCN/HITA_\221\262\227\253\271\234\364\261\361.mp3" "/Volumes/DATA/Music/POPCN/HITA_\221\262\227\253\271\234\364\261\361.mp3" "/Volumes/DATA/Music/POPCN/S.H.E_\221\234\364\251\373\221\321\234\364\257\321\315\362\221\304\352.mp3" "/Volumes/DATA/Music/POPEN/Arvil_Complicated.mp3" "/Users/LooChao/Dropbox/.emacs.d/lisp/emms/emms-lyrics.el" "/Users/LooChao/Dropbox/.emacs.d/lisp/emms/emms-setup.el" "/Users/LooChao/Dropbox/.emacs.d/lisp/breadcrumb/breadcrumb.el" "/Users/LooChao/Dropbox/.emacs.d/rc/lch-bmk.el" "/Users/LooChao/Dropbox/.emacs.lib/lch-emacs/rc/lch-bmk.el" "/Users/LooChao/Dropbox/.emacs.d/rc/archive/dotEmacs_archive" "/Users/LooChao/Dropbox/.emacs.d/rc/archive/color-theme-loochao.el_archive" "/Users/LooChao/.wine/dosdevices/z:/Volumes/DATA/Dropbox/.emacs.lib/Lazycat/Site-Lisp/Packages/LazyCatCollect/ac-anything.el" "/Users/LooChao/.wine/dosdevices/z:/Volumes/DATA/Dropbox/.emacs.lib/Lazycat/Site-Lisp/Configure/Init/init-wget.el" "/Users/LooChao/Dropbox/.emacs.d/rc/lch-elisp.el" "/Users/LooChao/Downloads/lch-elisp.el" "/Users/LooChao/Dropbox/.emacs.d/rc/archive/lch-emms.el_archive" "/Users/LooChao/.wine/dosdevices/z:/Volumes/DATA/Dropbox/.emacs.lib/Lazycat/Site-Lisp/Configure/LazyCatKeystoke.el" "/Users/LooChao/.wine/dosdevices/z:/Volumes/DATA/Dropbox/.emacs.lib/Lazycat/Site-Lisp/Configure/Init/init-auto-complete.el" "/Users/LooChao/.wine/dosdevices/z:/Users/LooChao/Dropbox/.emacs.d/lisp/grep-util/color-grep.el" "/Users/LooChao/.wine/dosdevices/z:/Users/LooChao/Dropbox/.emacs.d/lisp/grep-util/grep-edit.el" "~/Dropbox/.emacs.d/rc/archive/" "/Users/LooChao/Dropbox/.emacs.d/lib/themes/color-theme-zenburn/color-theme-zenburn.el" "~/Dropbox/.emacs.d/lib/themes/color-theme-zenburn"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/LooChao/Dropbox/.emacs.d/rc/lch-emms.el"
+  "lch-emms.el"
+  'emacs-lisp-mode
+  '(global-auto-revert-mode volatile-highlights-mode outline-minor-mode undo-tree-mode yas-minor-mode auto-complete-mode paredit-mode)
+  517
+  '(2282 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/LooChao/Dropbox/.emacs.d/lisp/emms/emms-setup.el"
+  "emms-setup.el"
+  'emacs-lisp-mode
+  '(global-auto-revert-mode volatile-highlights-mode outline-minor-mode undo-tree-mode yas-minor-mode auto-complete-mode paredit-mode)
+  4121
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/LooChao/Dropbox/.emacs.d/lisp/emms-util/emms-lyrics-download.el"
+  "emms-lyrics-download.el"
+  'emacs-lisp-mode
+  '(global-auto-revert-mode volatile-highlights-mode outline-minor-mode undo-tree-mode yas-minor-mode auto-complete-mode paredit-mode)
+  1
+  '(4432 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "emms-util"
+  'dired-mode
+  '(global-auto-revert-mode volatile-highlights-mode yas-minor-mode)
+  204
+  '(nil nil)
+  t
+  '("/Users/LooChao/Dropbox/.emacs.d/lisp/emms-util/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "lisp"
+  'dired-mode
+  '(global-auto-revert-mode volatile-highlights-mode yas-minor-mode)
+  949
+  '(nil nil)
+  t
+  '("/Users/LooChao/Dropbox/.emacs.d/lisp/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  ".emacs.d"
+  'dired-mode
+  '(global-auto-revert-mode volatile-highlights-mode yas-minor-mode)
+  754
+  '(nil nil)
+  t
+  '("/Users/LooChao/Dropbox/.emacs.d/")
+  nil)
+
+(desktop-create-buffer 206
+  "/Users/LooChao/Dropbox/.emacs.lib/emms/xwl-emms.el"
+  "xwl-emms.el"
+  'emacs-lisp-mode
+  '(global-auto-revert-mode volatile-highlights-mode outline-minor-mode undo-tree-mode yas-minor-mode auto-complete-mode paredit-mode)
+  2344
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "emms"
+  'dired-mode
+  '(global-auto-revert-mode volatile-highlights-mode yas-minor-mode)
+  372
+  '(nil nil)
+  t
+  '("/Users/LooChao/Dropbox/.emacs.lib/emms/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  ".emacs.lib"
+  'dired-mode
+  '(global-auto-revert-mode volatile-highlights-mode yas-minor-mode)
+  560
+  '(nil nil)
+  t
+  '("/Users/LooChao/Dropbox/.emacs.lib/")
+  nil)
+
+(desktop-create-buffer 206
+  "/Users/LooChao/Dropbox/.emacs.lib/emms-get-lyrics.el"
+  "emms-get-lyrics.el"
+  'emacs-lisp-mode
+  '(global-auto-revert-mode volatile-highlights-mode outline-minor-mode undo-tree-mode yas-minor-mode auto-complete-mode paredit-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/LooChao/Dropbox/.emacs.lib/Lazycat/Site-Lisp/Configure/Init/init-emms.el"
+  "init-emms.el"
+  'emacs-lisp-mode
+  '(global-auto-revert-mode volatile-highlights-mode outline-minor-mode undo-tree-mode yas-minor-mode auto-complete-mode paredit-mode)
+  2230
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "Packages"
+  'dired-mode
+  '(global-auto-revert-mode volatile-highlights-mode yas-minor-mode)
+  220
+  '(276 nil)
+  t
+  '("/Users/LooChao/Dropbox/.emacs.lib/Lazycat/Site-Lisp/Packages/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "Dropbox"
+  'dired-mode
+  '(global-auto-revert-mode volatile-highlights-mode yas-minor-mode)
+  629
+  '(nil nil)
+  t
+  '("/Users/LooChao/Dropbox/")
+  nil)
+
+(desktop-create-buffer 206
+  "/Users/LooChao/Dropbox/.emacs.d/lisp/emms/emms-lyrics.el"
+  "emms-lyrics.el"
+  'emacs-lisp-mode
+  '(global-auto-revert-mode volatile-highlights-mode outline-minor-mode undo-tree-mode yas-minor-mode auto-complete-mode paredit-mode)
+  7250
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
 (desktop-create-buffer 206
   "/Users/LooChao/Dropbox/.emacs.d/rc/lch-bmk.el"
   "lch-bmk.el"
   'emacs-lisp-mode
   '(global-auto-revert-mode volatile-highlights-mode outline-minor-mode undo-tree-mode yas-minor-mode auto-complete-mode paredit-mode)
-  1154
-  '(1032 nil)
+  1334
+  '(1359 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/LooChao/Dropbox/.emacs.d/rc/color-theme-loochao.el"
+  "color-theme-loochao.el"
+  'emacs-lisp-mode
+  '(global-auto-revert-mode volatile-highlights-mode outline-minor-mode undo-tree-mode yas-minor-mode auto-complete-mode paredit-mode)
+  1099
+  '(965 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/LooChao/Dropbox/.emacs.d/rc/lch-conf.el"
+  "lch-conf.el"
+  'emacs-lisp-mode
+  '(global-auto-revert-mode volatile-highlights-mode outline-minor-mode undo-tree-mode yas-minor-mode auto-complete-mode paredit-mode)
+  612
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/LooChao/Dropbox/.emacs.d/rc/lch-binding.el"
+  "lch-binding.el"
+  'emacs-lisp-mode
+  '(global-auto-revert-mode volatile-highlights-mode outline-minor-mode undo-tree-mode yas-minor-mode auto-complete-mode paredit-mode hs-minor-mode)
+  15848
+  '(14935 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/LooChao/Dropbox/.emacs.lib/Lazycat/Site-Lisp/Configure/LazyCatDepend.el"
+  "LazyCatDepend.el"
+  'emacs-lisp-mode
+  '(global-auto-revert-mode volatile-highlights-mode outline-minor-mode undo-tree-mode yas-minor-mode auto-complete-mode paredit-mode hs-minor-mode)
+  1
+  '(1 nil)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix)))
@@ -50,17 +248,6 @@
   '((buffer-file-coding-system . utf-8-unix)))
 
 (desktop-create-buffer 206
-  nil
-  "rc"
-  'dired-mode
-  '(global-auto-revert-mode volatile-highlights-mode yas-minor-mode)
-  650
-  '(1 nil)
-  t
-  '("/Users/LooChao/Dropbox/.emacs.d/rc/")
-  nil)
-
-(desktop-create-buffer 206
   "/Users/LooChao/Dropbox/.emacs.d/rc/lch-var.el"
   "lch-var.el"
   'emacs-lisp-mode
@@ -78,17 +265,6 @@
   '(global-auto-revert-mode volatile-highlights-mode outline-minor-mode undo-tree-mode yas-minor-mode auto-complete-mode paredit-mode)
   6078
   '(2084 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/Users/LooChao/Dropbox/.emacs.d/rc/lch-binding.el"
-  "lch-binding.el"
-  'emacs-lisp-mode
-  '(global-auto-revert-mode volatile-highlights-mode outline-minor-mode undo-tree-mode yas-minor-mode auto-complete-mode paredit-mode hs-minor-mode)
-  14810
-  '(13205 nil)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix)))
@@ -116,21 +292,10 @@
   '((buffer-file-coding-system . utf-8-unix)))
 
 (desktop-create-buffer 206
-  "/Users/LooChao/Dropbox/.emacs.d/rc/lch-emms.el"
-  "lch-emms.el"
-  'emacs-lisp-mode
-  '(global-auto-revert-mode volatile-highlights-mode outline-minor-mode undo-tree-mode yas-minor-mode auto-complete-mode paredit-mode)
-  1729
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
   "/Users/LooChao/Dropbox/.emacs.d/rc/lch-util.el"
   "lch-util.el"
   'emacs-lisp-mode
-  '(global-auto-revert-mode volatile-highlights-mode outline-minor-mode undo-tree-mode yas-minor-mode auto-complete-mode)
+  '(global-auto-revert-mode volatile-highlights-mode outline-minor-mode undo-tree-mode yas-minor-mode auto-complete-mode paredit-mode)
   6809
   '(nil nil)
   nil
@@ -248,39 +413,6 @@
   '((buffer-file-coding-system . utf-8-unix)))
 
 (desktop-create-buffer 206
-  nil
-  ".emacs.lib"
-  'dired-mode
-  '(global-auto-revert-mode volatile-highlights-mode yas-minor-mode)
-  251
-  '(nil nil)
-  t
-  '("/Users/LooChao/Dropbox/.emacs.lib/")
-  nil)
-
-(desktop-create-buffer 206
-  "/Users/LooChao/Dropbox/.emacs.d/rc/lch-elisp.el"
-  "lch-elisp.el"
-  'emacs-lisp-mode
-  '(global-auto-revert-mode volatile-highlights-mode flyspell-mode outline-minor-mode undo-tree-mode yas-minor-mode auto-complete-mode paredit-mode hs-minor-mode)
-  8290
-  '(8377 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/Users/LooChao/Dropbox/.emacs.lib/Lazycat/Site-Lisp/Configure/LazyCatDepend.el"
-  "LazyCatDepend.el"
-  'emacs-lisp-mode
-  '(global-auto-revert-mode volatile-highlights-mode outline-minor-mode undo-tree-mode yas-minor-mode auto-complete-mode paredit-mode hs-minor-mode)
-  1
-  '(1 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
   "/Users/LooChao/Dropbox/.emacs.lib/Lazycat/Site-Lisp/Configure/LazyCatKeystoke.el"
   "LazyCatKeystoke.el"
   'emacs-lisp-mode
@@ -290,28 +422,6 @@
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  nil
-  "Configure"
-  'dired-mode
-  '(global-auto-revert-mode volatile-highlights-mode yas-minor-mode)
-  886
-  '(nil nil)
-  t
-  '("/Users/LooChao/Dropbox/.emacs.lib/Lazycat/Site-Lisp/Configure/")
-  nil)
-
-(desktop-create-buffer 206
-  nil
-  "Site-Lisp"
-  'dired-mode
-  '(global-auto-revert-mode volatile-highlights-mode yas-minor-mode)
-  260
-  '(nil nil)
-  t
-  '("/Users/LooChao/Dropbox/.emacs.lib/Lazycat/Site-Lisp/")
-  nil)
 
 (desktop-create-buffer 206
   "/Users/LooChao/Dropbox/.emacs.lib/Lazycat/Site-Lisp/Packages/LazyCatCollect/goto-chg.el"
@@ -325,28 +435,6 @@
   '((buffer-file-coding-system . utf-8-unix)))
 
 (desktop-create-buffer 206
-  nil
-  "LazyCatCollect"
-  'dired-mode
-  '(global-auto-revert-mode volatile-highlights-mode yas-minor-mode)
-  16230
-  '(508 nil)
-  t
-  '("/Users/LooChao/Dropbox/.emacs.lib/Lazycat/Site-Lisp/Packages/LazyCatCollect/")
-  nil)
-
-(desktop-create-buffer 206
-  nil
-  "Lazycat"
-  'dired-mode
-  '(global-auto-revert-mode volatile-highlights-mode yas-minor-mode)
-  247
-  '(nil nil)
-  t
-  '("/Users/LooChao/Dropbox/.emacs.lib/Lazycat/")
-  nil)
-
-(desktop-create-buffer 206
   "/Users/LooChao/Dropbox/.emacs.d/rc/archive/lch-binding.el_archive"
   "lch-binding.el_archive"
   'emacs-lisp-mode
@@ -356,15 +444,4 @@
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  nil
-  "Current"
-  'dired-mode
-  '(global-auto-revert-mode volatile-highlights-mode yas-minor-mode)
-  488
-  '(nil nil)
-  t
-  '("/Volumes/DATA/Music/INBOX/Xiami/Current/")
-  nil)
 

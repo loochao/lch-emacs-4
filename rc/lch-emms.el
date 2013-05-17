@@ -19,9 +19,9 @@
 ;; Like require lch-conf, emms-setup will load lots of el files.
 (require 'emms-setup)
 
-(emms-standard)
 (emms-default-players)
 ;; NEWEST FEATURE. Use this if you like living on the edge.
+;; (emms-standard)
 (emms-devel)
 
 (defvar emms-dir (concat emacs-var-dir "/emms"))
@@ -48,8 +48,6 @@
 (add-hook 'emms-player-started-hook 'emms-show)
 (setq emms-show-format "Now Playing: %s")
 
-;;; Info
-(setq emms-info-functions nil)
 ;;; Modeline
 ;; Don't show current track name on modeline.
 ;; (emms-mode-line-disable)
@@ -70,6 +68,13 @@
 ;; icon
 (require 'emms-mode-line-icon)
 
+;;; Tag
+;; emms-print-metadata ships with emms.
+;; It generates utf8 coding.
+;; (require 'emms-info-libtag)
+;; (setq emms-info-functions '(emms-info-libtag))
+(setq emms-info-functions nil)
+
 ;;; Lyrics
 ;; (when (fboundp 'emms-lyrics)
 ;;   (emms-lyrics 1))
@@ -77,6 +82,8 @@
 ;;       emms-lyrics-display-on-minibuffer t)
 ;; (setq emms-lyrics-dir (concat emms-dir "/lyric"))
 
+;; (require 'emms-lyrics-download)
+;; (ad-activate 'emms-lyrics-find-lyric)
 ;;; Util
 (defun lch-emms-toggle-playing ()
   (interactive)
