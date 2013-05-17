@@ -1,0 +1,39 @@
+;;; Tip-of-the-day
+(setq tip-of-the-day-file "~/Dropbox/.emacs.d/TIP.md")
+(defun lch-totd()
+  (interactive)
+   (random t)
+   (let ((stars "*****************************")
+         (tip (with-temp-buffer 
+                (insert-file-contents tip-of-the-day-file)
+                (goto-line (1+ (random
+                                (count-lines (point-min)
+                                             (point-max)))))
+                (buffer-substring (point) (line-end-position)))))
+     (momentary-string-display
+      (concat "\n\n" stars "\n"
+              "Tip of the Day\n"
+              tip "\n"
+              stars "\n\n")
+      (window-start) ?\r
+      "Hit any key when done reading")))
+
+;;; Open-archive-file
+(defun lch-toggle-archive ()
+  (interactive)
+  (let* ((buf (buffer-file-name (current-buffer)))
+	 (dir (file-name-directory buf))
+	 (file (file-name-nondirectory buf))
+	 (archive-buffer (concat dir "archive/" file "_archive"))
+	 (origin-buffer (concat (concat (replace-regexp-in-string "/archive" "" dir)) 
+				(replace-regexp-in-string "_archive" "" buf)  )))
+    (if (string-match "archive" buf)
+        (progn (if (file-exists-p origin-buffer)
+                   (switch-to-buffer (find-file origin-buffer))
+                 (switch-to-buffer (get-buffer-create archive-buffer))))
+      (progn (if (file-exists-p archive-buffer)
+		 (switch-to-buffer (find-file archive-buffer))
+	       (switch-to-buffer (get-buffer-create archive-buffer))
+	       (emacs-lisp-mode))))))
+(define-key global-map (kbd "C-c a") 'lch-toggle-archive)
+
