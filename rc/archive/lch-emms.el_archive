@@ -35,6 +35,16 @@
 (message "=> lch-emms: loading...")
 
 
+(defun lch-emms-lyric ()
+  (interactive)
+  (let* ((music-path (emms-track-name (emms-playlist-current-selected-track)))
+         (music-folder (file-name-directory music-path))
+         (music-file (file-name-nondirectory music-path)))
+    (looking-at "虾小米" music-file)
+    (message (format "%s" music-file))
+)
+)
+
 (setq emms-lyric-display-p nil)
 
 

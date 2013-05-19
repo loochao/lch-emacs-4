@@ -30,6 +30,7 @@
 (require 'lch-bmk)
 (require 'lch-binding)
 (require 'lch-one-key)
+(require 'lch-pgm)
 (require 'lch-var)
 
 ;;; System-related

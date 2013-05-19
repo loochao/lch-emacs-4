@@ -187,7 +187,8 @@ kill all buffers with MODE except current buffer."
     "<f1> f     <=>  cowsay fortunes, nice to learn English~"
     "<f1> c     <=>  clean buffer out of space, tab, and bad indentation."
     "<fn> num   <=>  Open the mode related directories."
-    "! @dired   <=>  Add marked file to emms playlist." 
+    "! @dired   <=>  Add marked file to emms playlist."
+    "C-6 combines to different functions under diff mode."
     "Visit WikEmacs at http://wikemacs.org to find out even more about Emacs."))
 
 (defun lch-tip-of-the-day ()
@@ -257,7 +258,7 @@ Argument STRING the string that need pretty."
     (setq mydir (replace-match "" nil nil mydir 0))
     (when lch-mac-p (shell-command (format "open -a Finder %s" mydir)))
     ))
-(define-key global-map (kbd "<f3> <f3>") 'lch-start-file-browser)
+(define-key global-map (kbd "<f9> <f9>") 'lch-start-file-browser)
 
 ;;; Start-terminal
 (defun lch-start-terminal ()

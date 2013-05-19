@@ -240,10 +240,10 @@
 (setq one-key-menu-fn-alist
       '(
         (("<f2>" . "goto-last-change") . goto-last-change)                      ;; => lch-elisp.el
-        (("<f3>" . "lch-start-file-browser") . lch-start-file-browser)          ;; => lch-util.el
-        (("<f5>" . "w3m") . lch-w3m-init)                                       ;; => lch-web.el
+        (("<f3>" . "w3m") . lch-w3m-init)                                       ;; => lch-web.el
         (("<f7>" . "dictionary") . zone)
         (("<f8>" . "org-agenda") . org-agenda)                                  ;; => lch-org.el
+        (("<f9>" . "lch-start-file-browser") . lch-start-file-browser)          ;; => lch-util.el
         (("<f12>" . "emms") . lch-emms-init)                                    ;; => lch-emms.el
         (("Shift+ [l,r,u,d] ->" . "windmove") . zone)                           ;; => lch-elisp.el
         ))
@@ -288,7 +288,8 @@
    ("<f2> C" . calc)
    ("<f2> f" . auto-fill-mode)
    ("<f2> l" . lisp-mode)
-   ("<f2> o" . outline-minor-mode)
+   ("<f2> o" . org-mode)
+   ("<f2> O" . outline-minor-mode)
    ("<f2> s" . flyspell-mode)
    ("<f2> w" . whitespace-mode)
    ))
@@ -303,7 +304,8 @@
         (("C" . "calc") . calc)                                                 ;; => lch-binding.el
         (("f" . "auto-fill-mode") . auto-fill-mode)                             ;; => lch-binding.el
         (("l" . "lisp-mode") . lisp-mode)                                       ;; => lch-binding.el
-        (("o" . "outline-mode") . outline-minor-mode)                           ;; => lch-binding.el
+        (("o" . "org-mode") . org-mode)                                         ;; => lch-binding.el
+        (("O" . "outline-mode") . outline-minor-mode)                           ;; => lch-binding.el
         (("p" . "paredit-mode") . paredit-mode)                                 ;; => lch-binding.el
         (("s" . "flyspell-mode") . flyspell-mode)                               ;; => lch-binding.el
         (("w" . "whitespace-mode") . whitespace-mode)                           ;; => lch-binding.el
@@ -401,6 +403,21 @@
   (one-key-menu "NETWORK" one-key-menu-network-alist t))
 (define-key global-map (kbd "<f6> m") 'one-key-menu-network)
 
+;;; F7: (dictionary-map)
+(defvar one-key-menu-dict-alist nil
+  "The `one-key' menu alist for DICT.")
+
+(setq one-key-menu-dict-alist
+      '(
+        (("<f7>" . "dict-search") . dictionary-search)                    ;; => lch-elisp.el
+        ))
+
+(defun one-key-menu-dict ()
+  "The `one-key' menu for DICT."
+  (interactive)
+  (one-key-menu "DICT" one-key-menu-dict-alist t))
+(define-key global-map (kbd "<f7> m") 'one-key-menu-dict)
+
 ;;; F8: (org-agenda-map)
 ;; (define-key global-map (kbd "<f8>") 'org-agenda)                             ;; => lch-org.el
 ;;; F9: (file-map)
@@ -472,7 +489,7 @@
 (define-key global-map (kbd "<f10> 1") (lambda() (interactive) (dired (concat emacs-dir "/rc"))))
 (define-key global-map (kbd "<f10> 2") (lambda() (interactive) (dired dropbox-path)))
 (define-key global-map (kbd "<f10> 3") (lambda() (interactive) (dired "~/Downloads")))
-(define-key global-map (kbd "<f10> 4") (lambda() (interactive) (dired emacs-site-lisp)))
+(define-key global-map (kbd "<f10> 4") (lambda() (interactive) (dired emacs-lisp-dir)))
 
 (define-key global-map (kbd "<f10> b") (lambda() (interactive) (find-file (concat emacs-dir "/rc/lch-binding.el"))))
 (define-key global-map (kbd "<f10> B") (lambda() (interactive) (find-file (concat emacs-dir "/rc/lch-bmk.el"))))
