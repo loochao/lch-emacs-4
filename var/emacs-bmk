@@ -9,7 +9,7 @@
  (position . 1065))
 ("org-capture-last-stored"
  (filename . "~/Dropbox/Org/org/iPrv.org")
- (front-context-string . "*** Brian K's PP")
+ (front-context-string . "*** ACTIVE iPrv.")
  (rear-context-string . "ND:\n** TODO-#B-\n")
  (position . 1686))
 )

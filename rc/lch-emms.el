@@ -188,6 +188,16 @@
       (emms-show)
       )))
 
+(defun emms-delete-file-from-disk ()
+  "Delete this file from disk."
+  (interactive)
+  (let* ((current-track (emms-track-name (emms-playlist-track-at))))
+    (when (yes-or-no-p (format "Are you really want to delete \' %s \' from disk? " current-track))
+      (if (string-equal current-track (emms-playlist-play-filename))
+          (emms-stop))
+      (emms-playlist-mode-kill-entire-track)
+      (dired-delete-file current-track)
+      (message (format "Have delete \' %s \' from disk." current-track)))))
 ;;; Keymap
 ;; q -- only bury the emms playlist buffer, emms is still there.
 ;; Q -- really quit. But globally, "<f12> q" is really quit.

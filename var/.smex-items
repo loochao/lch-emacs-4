@@ -1,17 +1,16 @@
 
 ;; ----- smex-history -----
 (
- emms-volume-raise
- emms-lyrics-redownload-lyric
+ R
  cd
  mf
  5x5
  arp
  dbx
+ dig
 )
 
 ;; ----- smex-data -----
 (
- (emms-lyrics-redownload-lyric . 3)
- (emms-volume-raise . 1)
+ 
 )

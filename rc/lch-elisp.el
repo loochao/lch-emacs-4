@@ -13,6 +13,14 @@
 
 ;;; CODE
 (message "=> lch-elisp: loading...")
+;;; ESS
+(autoload 'ess-mode "ess-site" "Emacs Speaks Statistics" t)
+(autoload 'R-mode "ess-site" "Emacs Speaks Statistics" t)
+(autoload 'R "ess-site" "Emacs Speaks Statistics" t)
+;; Slow setting (from manual). 
+;; (require 'ess-site)
+
+;; (setq ess-ask-for-ess-directory nil) 
 ;;; Dictionary
 (autoload 'dictionary-search "dictionary" "Ask for a word and search it in all dictionaries" t)
 (autoload 'dictionary "dictionary" "Create a new dictionary buffer" t)
@@ -69,7 +77,7 @@
 (define-key global-map (kbd "<f11> r") 'rainbow-delimiters-mode)  ;p stands for parenthesis
 ;;; Matlab
 ;; Work like a charm, but only enable when needed
-;;(require 'matlab-load)
+(require 'matlab-load)
 ;;; Ace-jump-mode
 (autoload
   'ace-jump-mode
